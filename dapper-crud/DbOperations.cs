@@ -41,8 +41,8 @@ namespace dapper_crud
         {
             using (IDbConnection con = new SqlConnection(ConnectionString))
             {
-                string sqlQuery = "DELETE Products WHERE ProductName = @ID";
-                int rowsAffected = con.Execute(sqlQuery,new {Id = "iPhone 11" });
+                string sqlQuery = "DELETE Products WHERE ProductName = @ProductName";
+                int rowsAffected = con.Execute(sqlQuery,new { ProductName = "iPhone 11" });
 
                 return rowsAffected;
             }
