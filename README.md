@@ -11,4 +11,4 @@ PM> Install-Package System.Data.SqlClient
 
 I am using the **Northwind** database!
 
-I will do ***insert, delete, update*** operations on the product table.
+I will do ***insert, delete, update, select, inner join*** operations on the product table.
