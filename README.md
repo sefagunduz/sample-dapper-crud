@@ -13,7 +13,7 @@ I am using the **Northwind** database!
 
 I will do ***insert, delete, update, select, inner join, count*** operations on the product table.
 
-````
+```
 DbOperations.cs for synchronous transactions.
 DbOperationsAsync.cs for asynchronous transactions.
 ```
